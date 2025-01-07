@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Experience">Experience</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Connect">Connect</a>
+    </div>
+
     <img
       src="css/duvonne_berry.JPG"
       alt="Photo of Duvonne Berry."
-      class="center"
+      class="webdefaultphoto"
     />
+
     <h1>Duvonne Berry</h1>
     <section id="About">
       <h2>About</h2>
@@ -28,36 +38,89 @@
     </section>
     <section id="Experience">
       <h2>Experience</h2>
-      <ul>
-        <li>
-          Bachelor of Science in Computer Systems Administration from Southern
-          Adventist University
-        </li>
-        <li>
-          Masters of Science in Information Technology from Florida State
-          University
-        </li>
-        <li>
-          Certificate in Information Leadership & Management from Florida State
-          University
-        </li>
-      </ul>
+      <div class="experience">
+        <!-- Header Row -->
+        <div class="row header">
+          <div class="column">Job Title & Description</div>
+          <div class="column">Dates Worked</div>
+        </div>
+
+        <!-- Data Rows -->
+        <div class="row">
+          <div class="column">
+            <strong>Network Systems Administrator</strong>
+            <p>
+              This highly technical role oversees IT operations, including the
+              installation, management, and security of hardware, software, and
+              network systems. Key responsibilities include administering
+              Windows Servers, networking systems, and specialized software,
+              ensuring data integrity, maintaining IT security, supervising
+              staff, managing inventory, and monitoring system performance.
+            </p>
+          </div>
+          <div class="column">Nov 2024 - Present</div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <strong>Distributed Computer Systems Analyst II</strong>
+            <p>
+              This technical role manages IT systems and operations, including
+              installation, administration, and security of hardware, software,
+              and networks. Responsibilities include overseeing Windows Servers,
+              VMware, and other software; maintaining network connections and
+              devices; ensuring data security and backups; supervising staff;
+              managing inventory; and monitoring system performance.
+            </p>
+          </div>
+          <div class="column">Oct 2020 - Nov 2024</div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <strong>Distributed Computer Systems Analyst</strong>
+            <p>
+              Responsible for managing networking systems, overseeing VMware,
+              Eaglesoft, and SharePoint security, and maintaining wide area
+              networks, servers, and peripherals. Duties include enforcing IT
+              security, providing user security training, and monitoring system
+              performance to identify and resolve issues.
+            </p>
+          </div>
+          <div class="column">Oct 2016 - Oct 2020</div>
+        </div>
+      </div>
+    </section>
+    <section id="Skills">
+      <h2>Skills</h2>
+    </section>
+    <section id="Projects">
+      <h2>Projects</h2>
+      <ul></ul>
     </section>
     <section id="Connect">
       <h2>Connect</h2>
-      <a href="https://www.linkedin.com/in/duvonneberry/" target="_blank">
-        <img
-          src="css/linkedin.png"
-          alt="Link to LinkedIn social media."
-          class="icons"
-        />
-      </a>
-      <a
-        href="https://github.com/duvonneb/duvonne-berry-jupiter"
-        target="_blank"
-      >
-        <img src="css/github.png" alt="Link to Github page." class="icons" />
-      </a>
+      <div class="connect">
+        <div>
+          <a href="https://www.linkedin.com/in/duvonneberry/" target="_blank">
+            <img
+              src="css/linkedin.png"
+              alt="Link to LinkedIn social media."
+              class="icons"
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://github.com/duvonneb/duvonne-berry-jupiter"
+            target="_blank"
+          >
+            <img
+              src="css/github.png"
+              alt="Link to Github page."
+              class="icons"
+            />
+          </a>
+        </div>
+      </div>
     </section>
   </body>
 </html>
