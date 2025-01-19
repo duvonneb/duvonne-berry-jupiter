@@ -110,6 +110,17 @@ ul {
 }
 /* End of CSS for Experience table */
 
+/* CSS for Skills table */
+.skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 0;
+  margin: 20px 40px;
+}
+
+/* End of CSS for Skills table */
+
 /* Formatting for icons */
 .connect {
   display: flex;
@@ -219,6 +230,10 @@ ul {
   .column:first-child,
   .column:last-child {
     text-align: center;
+  }
+
+  .skills {
+    grid-template-columns: 1fr;
   }
 
   /* Adjust icons */
