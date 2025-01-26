@@ -135,6 +135,32 @@ ul {
   padding-left: 2rem;
 }
 
+/* Messages Section */
+#messages {
+  margin-top: 20px;
+}
+
+#messages_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+#messages_list li button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 16px;
+}
+/* End of Messages Section */
+
 /* Tablet Styles (768px - 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
   /* Adjust navbar padding and link size */
@@ -240,5 +266,12 @@ ul {
   .icons {
     width: 2rem;
     height: 2rem;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    font-size: 18px;
+    padding: 20px;
   }
 }
