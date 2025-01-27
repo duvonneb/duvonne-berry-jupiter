@@ -119,6 +119,15 @@ ul {
   margin: 20px 40px;
 }
 
+/* CSS for Projects table */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 0;
+  margin: 20px 40px;
+}
+
 /* End of CSS for Skills table */
 
 /* Formatting for icons */
@@ -258,7 +267,7 @@ ul {
     text-align: center;
   }
 
-  .skills {
+  .skills .projects {
     grid-template-columns: 1fr;
   }
 
