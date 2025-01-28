@@ -64,3 +64,27 @@ function formFunction(event) {
 
   event.target.reset();
 }
+
+fetch("https://api.github.com/users/duvonneb/repos")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Request failed");
+    }
+    return response.json();
+  })
+  .then((data) => {
+    let repositories = data;
+    const projectSection = document.getElementById("Projects");
+    const projectList = projectSection.querySelector(".projects");
+
+    // Iterate over the repositories array using a for loop
+    for (let i = 0; i < repositories.length; i++) {
+      const project = document.createElement("li");
+      project.textContent = repositories[i].name; // Access the name property of the repository
+      projectList.appendChild(project);
+    }
+    console.log(repositories);
+  })
+  .catch((error) => {
+    console.error("An error occurred:", error);
+  });
