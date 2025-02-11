@@ -64,7 +64,9 @@ function formFunction(event) {
 
   event.target.reset();
 }
+//end list out skills array
 
+//list of GitHub repositories
 fetch("https://api.github.com/users/duvonneb/repos")
   .then((response) => {
     if (!response.ok) {

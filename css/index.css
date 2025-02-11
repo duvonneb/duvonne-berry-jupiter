@@ -44,6 +44,7 @@ body {
   padding: 1rem;
 }
 
+/* Design for h1 elements */
 h1 {
   color: royalblue;
   font-family: "Anton SC", sans-serif;
@@ -51,6 +52,7 @@ h1 {
   font-size: 3rem; /* Large font for name with relative sizing */
 }
 
+/* Design for h2 elements */
 h2 {
   color: blue;
   font-size: 1.5rem; /* Medium font for section headings with relative sizing */
